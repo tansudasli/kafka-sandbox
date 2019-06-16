@@ -1,5 +1,4 @@
-
-
+#  install kafka as standalone 
 
 wget https://www.apache.org/dyn/closer.cgi?path=/kafka/2.2.1/kafka_2.11-2.2.1.tgz
 
