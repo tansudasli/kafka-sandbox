@@ -4,4 +4,6 @@ Apache Kafka sandbox
 
 ## How to Start
 
-1. `cd kafka-sandbox`, then `./create-instance-on-GCP.sh`
+1. Run `./create-instance-on-GCP.sh` to createan GCP instance. Change some variables.
+2. `git clone https://github.com/tansudasli/kafka-sandbox.git`
+3. `cd kafka-sandbox`

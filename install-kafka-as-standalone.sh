@@ -1,6 +1,6 @@
 #  install kafka as standalone 
 
-wget https://www.apache.org/dyn/closer.cgi?path=/kafka/2.2.1/kafka_2.11-2.2.1.tgz
+wget http://ftp.itu.edu.tr/Mirror/Apache/kafka/2.2.1/kafka_2.11-2.2.1.tgz
 
 tar -xvf kafka_2.11-2.2.1.tgz
 cd kafka_2.11-2.2.1
