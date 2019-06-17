@@ -4,9 +4,9 @@ Apache Kafka sandbox
 
 ## How to Start
 
-1. Run `./create-instance-on-GCP.sh` to create a GCP instance. Change some variables.
+1. Run `./create-instance-on-GCP.sh` to create a GCP instance on your local. Change some variables!
 2. **ssh to instance** and `git clone https://github.com/tansudasli/kafka-sandbox.git`
-3. Install kafka w/ one of the **kafka-sandbox/install-kafka*.sh** files
+3. Install kafka w/ one of the **kafka-sandbox/install-kafka-as-standalone.sh** files
 4. Format data-disk and mount it. check for <https://cloud.google.com/compute/docs/disks/add-persistent-disk#create_disk>
    - `lsblk`
    - `sudo mkfs.ext4 -m 0 -F -E lazy_itable_init=0,lazy_journal_init=0,discard /dev/sdb`
