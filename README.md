@@ -14,7 +14,7 @@ Apache Kafka sandbox
    - `sudo mount -o discard,defaults /dev/sdb $HOME/kafka_2.11-2.2.1/data`
    - `sudo chown $USER:$USER ~/kafka_2.11-2.2.1/data`
    - `sudo cp /etc/fstab /etc/fstab.backup`
-   - `echo UUID=``sudo blkid -s UUID -o value /dev/sdb`` $HOME/kafka_2.11-2.2.1/data ext4 discard,defaults,nofail 0 2 | sudo tee -a /etc/fstab`
+   - `echo UUID=$(sudo blkid -s UUID -o value /dev/sdb) $HOME/kafka_2.11-2.2.1/data ext4 discard,defaults,nofail 0 2 | sudo tee -a /etc/fstab`
 6. Configure data folders
    - open config/zookeeper.properties file and set `dataDir=$HOME/kafka_2.11-2.2.1/data/zookeeper`
    - open config/server.properties file and set `log.dirs=$HOME/kafka_2.11-2.2.1/data/kafka`
