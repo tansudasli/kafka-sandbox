@@ -1,9 +1,7 @@
 package com.kafka;
 
-import org.apache.kafka.clients.producer.Callback;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
-import org.apache.kafka.clients.producer.RecordMetadata;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,8 +17,6 @@ public class Producer {
 
     private static Logger logger = LoggerFactory.getLogger(Producer.class);
 
-    private static InputStream inputStream;
-
     private static Map<String, String> products = Stream.of(new String[][] {
             {"clothes", "id:100, category:clothes, price:1000"},
             {"watches", "id:100, category:watches, price:500"},
@@ -31,26 +27,17 @@ public class Producer {
             {"clothes", "id:100, category:clothes, price:400, brand:gucci"}
     }).collect(Collectors.toMap(data -> data[0], data -> data[1]));
 
-    //    private static log
     public static void main(String[] args) throws IOException {
 
         Properties properties = new Properties();
 
-        try {
-            inputStream = Producer.class.getClassLoader().getResourceAsStream("kafka-server.properties");
+        try (InputStream inputStream = Producer.class.getClassLoader().getResourceAsStream("kafka-server.properties")) {
 
             properties.load(inputStream);
 
             logger.info("kafka-server.properties file loaded");
-
         } catch (IOException e) {
-            e.printStackTrace();
-
             logger.error("kafka-server.properties file not loaded", e);
-        }
-        finally {
-            if (inputStream != null)
-                inputStream.close();
         }
 
         KafkaProducer<String, String> producer = new KafkaProducer<>(properties);
@@ -62,17 +49,12 @@ public class Producer {
             producer.send(record, (metadata, exception) -> {
 
                 if (exception == null)
-                logger.info("Received new message: " +
-                        "\ntopic: " + metadata.topic() +
-                        "\ntimestamp: " + metadata.timestamp() +
-                        "\npartition: " + metadata.partition() +
-                        "\noffset: " + metadata.offset());
+                    logger.info(String.format("Received new message: on topic %s\ntimestamp: %d\npartition: %d\noffset: %d", metadata.topic(), metadata.timestamp(), metadata.partition(), metadata.offset()));
                 else
                     logger.error("Received new message:", exception);
-
             });
-        });
 
-        producer.close();
+            producer.close();
+        });
     }
 }
