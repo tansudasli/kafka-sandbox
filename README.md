@@ -26,3 +26,4 @@ Apache Kafka sandbox
 6. to test run, `kafka-topics.sh`
 7. to start zookeeper, `zookeeper-server-start.sh kafka_2.11-2.2.1/config/zookeeper.properties &`
 8. to start kafka, `kafka-server-start.sh kafka_2.11-2.2.1/config/server.properties &`
+
