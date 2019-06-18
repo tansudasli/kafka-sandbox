@@ -2,6 +2,10 @@
 
 Apache Kafka sandbox
 
+- /standalone : Installation scripts for Kafka on GCP
+- /kafka-basics : Java app. for producing, consuming w/ kafka-client APIs
+
+
 ## How to Start
 
 1. Run `./create-instance-on-GCP.sh` to create a GCP instance on your local. Change some variables!
