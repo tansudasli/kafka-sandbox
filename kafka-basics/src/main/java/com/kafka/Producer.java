@@ -28,7 +28,7 @@ public class Producer {
     }).collect(Collectors.toMap(data -> data[0], data -> data[1]));
 
     private static Map<String, String> variables = Stream.of(new String[][] {
-            {ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092"},
+            {ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "35.246.179.182:9092"},
             {ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName()},
             {ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName()},
             {"topic", "recently-added-products"}
