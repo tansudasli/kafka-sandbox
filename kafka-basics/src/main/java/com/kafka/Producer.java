@@ -7,8 +7,6 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.Map;
 import java.util.Properties;
 
@@ -29,24 +27,18 @@ public class Producer {
             {"clothes:700", "id:700, category:clothes, price:400, brand:gucci"}
     }).collect(Collectors.toMap(data -> data[0], data -> data[1]));
 
+    private static Map<String, String> variables = Stream.of(new String[][] {
+            {ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092"},
+            {ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName()},
+            {ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName()},
+            {"topic", "recently-added-products"}
+    }).collect(Collectors.toMap(data -> data[0], data -> data[1]));
+
+    private static Properties properties = new Properties();
+
     public static void main(String[] args) {
 
-        Properties properties = new Properties();
-
-        try (InputStream inputStream = Producer.class.getClassLoader().getResourceAsStream("kafka-server.properties")) {
-
-            properties.load(inputStream);
-
-            logger.info("kafka-server.properties file loaded");
-        } catch (IOException e) {
-            logger.error("kafka-server.properties file not loaded", e);
-        }
-
-        properties.putAll(Stream.of(new String[][] {
-                {ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, properties.getProperty("bootstrap.servers")},
-                {ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName()},
-                {ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName()}
-        }).collect(Collectors.toMap(data -> data[0], data -> data[1])));
+        properties.putAll(variables);
 
         KafkaProducer<String, String> producer = new KafkaProducer<>(properties);
 
