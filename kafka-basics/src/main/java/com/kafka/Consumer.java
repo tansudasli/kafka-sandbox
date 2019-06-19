@@ -35,8 +35,8 @@ public class Consumer {
             {ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServer},
             {ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName()},
             {ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName()},
-            {ConsumerConfig.GROUP_ID_CONFIG, groupId}, //TODO fill it
-            {ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, offsetReset}, //TODO fill it
+            {ConsumerConfig.GROUP_ID_CONFIG, groupId},
+            {ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, offsetReset},
             {"topic", "recently-added-products"}
     }).collect(Collectors.toMap(data -> data[0], data -> data[1]));
 
