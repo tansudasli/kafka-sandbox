@@ -50,7 +50,7 @@ public class Producer {
 
                 if (exception == null)
                     logger.info(String.format("Received new message: on topic %s\nkey= %s {timestamp: %d, partition: %d, offset: %d}",
-                            record.value(), metadata.topic(), metadata.timestamp(), metadata.partition(), metadata.offset()));
+                            k.split(":")[0], metadata.topic(), metadata.timestamp(), metadata.partition(), metadata.offset()));
                 else
                     logger.error("Received new message:", exception);
             });
