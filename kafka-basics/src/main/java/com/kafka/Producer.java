@@ -24,7 +24,8 @@ public class Producer {
             {"shoes:400", "id:400, category:shoes, price:250, brand:nike"},
             {"shoes:500", "id:500, category:shoes, price:1000, brand: adidas"},
             {"shoes:600", "id:600, category:shoes, price:1000, brand: adidas"},
-            {"clothes:700", "id:700, category:clothes, price:400, brand:gucci"}
+            {"clothes:700", "id:700, category:clothes, price:400, brand:gucci"},
+            {"watches:201", "id:201, category:watches, price:500"},
     }).collect(Collectors.toMap(data -> data[0], data -> data[1]));
 
     private static Map<String, String> variables = Stream.of(new String[][] {
