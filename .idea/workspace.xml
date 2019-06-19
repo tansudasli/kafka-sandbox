@@ -132,7 +132,7 @@
         <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="404">
-              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+              <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -476,7 +476,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560848977040</updated>
-      <workItem from="1560848978502" duration="17555000" />
+      <workItem from="1560848978502" duration="17892000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize - kafka Java APIs">
       <created>1560849122338</created>
@@ -576,11 +576,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560949413143</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="logging format changed">
+      <created>1560949596484</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1560949596484</updated>
+    </task>
+    <task id="LOCAL-00016" summary="logging format changed">
+      <created>1560949737147</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1560949737147</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17555000" />
+    <option name="totallyTimeSpent" value="17892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -692,7 +706,7 @@
     <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+          <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
         </state>
       </provider>
     </entry>
