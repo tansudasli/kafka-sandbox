@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01605dff-96c8-4bce-9c45-97f46985189e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/kafka-basics.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kafka-basics.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-basics/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Consumer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/kafka-basics/.gradle/" />
     <ignored path="$PROJECT_DIR$/kafka-basics/build/" />
@@ -73,18 +72,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="kafka-basics" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="kafka-basics" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="kafka-basics" type="f1a62948:ProjectNode" />
                 <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
@@ -95,12 +82,12 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kafka-basics/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="176">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -117,12 +104,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kafka-basics/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="15">
-                <caret line="1" column="96" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="96" />
+              <first_editor relative-caret-position="285">
+                <caret line="19" selection-start-line="19" selection-end-line="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -132,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="60" />
+            <state relative-caret-position="21">
+              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -141,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
+            <state relative-caret-position="570">
               <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
             </state>
           </provider>
@@ -167,9 +154,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/kafka-basics/src/main/resources/kafka-server.properties" />
         <option value="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Producer.java" />
-        <option value="$PROJECT_DIR$/kafka-basics/build.gradle" />
         <option value="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Consumer.java" />
         <option value="$PROJECT_DIR$/kafka-basics/README.md" />
+        <option value="$PROJECT_DIR$/kafka-basics/build.gradle" />
       </list>
     </option>
   </component>
@@ -188,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,50 +182,12 @@
               <item name="kafka-sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="kafka-sandbox" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="kafka-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka-basics" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka-basics" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka-basics" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka-basics" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka-basics" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,80 +218,99 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.kafka-basics [clean]">
-    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kafka.Producer" />
-      <module name="kafka-basics.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kafka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
+  <component name="RunManager" selected="Gradle.kafka-basics [runConsumer]">
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kafka-basics" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="-PmainClass=consumer" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runConsumer" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
       </extension>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="Gradle.BeforeRunTask" enabled="true" tasks="clean" externalProjectPath="$PROJECT_DIR$/kafka-basics" vmOptions="" scriptParameters="-PmainClass=consumer" />
       </method>
     </configuration>
-    <configuration name="kafka-basics [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="kafka-basics [runConsumer]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/kafka-basics" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="-PmainClass=consumer" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="runConsumer" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+      <method v="2">
+        <option name="Gradle.BeforeRunTask" enabled="false" tasks="clean" externalProjectPath="$PROJECT_DIR$/kafka-basics" vmOptions="" scriptParameters="-PmainClass=consumer" />
+      </method>
     </configuration>
-    <configuration name="kafka-basics [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="kafka-basics [runProducer]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/kafka-basics" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="-PmainClass=producer" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="compileJava" />
+            <option value="runProducer" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="kafka-basics [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/kafka-basics" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="run" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="kafka-basics-0.1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/kafka-basics/build/libs/kafka-basics-0.1.0-SNAPSHOT.jar" />
-      <method v="2" />
+      <method v="2">
+        <option name="Gradle.BeforeRunTask" enabled="false" tasks="clean" externalProjectPath="$PROJECT_DIR$/kafka-basics" vmOptions="" scriptParameters="-PmainClass=producer" />
+      </method>
     </configuration>
     <configuration default="true" type="WebLogic Instance" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <option name="PORT" value="7001" />
@@ -467,15 +434,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.kafka-basics [clean]" />
-        <item itemvalue="Gradle.kafka-basics [run]" />
-        <item itemvalue="Gradle.kafka-basics [compileJava]" />
-        <item itemvalue="JAR Application.kafka-basics-0.1.0-SNAPSHOT.jar" />
-        <item itemvalue="Application.Producer" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Gradle.kafka-basics [runProducer]" />
+      <item itemvalue="Gradle.kafka-basics [runConsumer]" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -487,7 +449,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560848977040</updated>
-      <workItem from="1560848978502" duration="22650000" />
+      <workItem from="1560848978502" duration="23393000" />
+      <workItem from="1561017346641" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize - kafka Java APIs">
       <created>1560849122338</created>
@@ -657,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561015757987</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="minor update">
+      <created>1561016193361</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1561016193361</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22650000" />
+    <option name="totallyTimeSpent" value="23458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -673,9 +643,8 @@
       <window_info id="aws.explorer" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25755286" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25679758" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.32988167" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32988167" />
       <window_info anchor="bottom" id="Docker" order="2" />
@@ -683,17 +652,18 @@
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32988167" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32988167" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32988167" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32988167" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.32988167" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Flutter Inspector" order="1" />
       <window_info anchor="right" id="Flutter Outline" order="2" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.19561933" />
+      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.19486405" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="right" id="Database" order="5" weight="0.32930514" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -715,7 +685,6 @@
     <MESSAGE value="Update - kafka Java APIs" />
     <MESSAGE value="Update - kafka Java APIs, config params changed" />
     <MESSAGE value="Update - kafka Java APIs, config file deleted and params changed" />
-    <MESSAGE value="minor update" />
     <MESSAGE value="logging format changed" />
     <MESSAGE value="partitioning check" />
     <MESSAGE value="kafka Consumer of recently-added-products topic" />
@@ -724,7 +693,8 @@
     <MESSAGE value="runApp task added for Consumer and Producer class: add  -PmainClass=producer or -PmainClass=consumer" />
     <MESSAGE value="Consumer app" />
     <MESSAGE value="Consumer app bugfix: string format exception fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Consumer app bugfix: string format exception fixed" />
+    <MESSAGE value="minor update" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor update" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -740,12 +710,9 @@
     <entry file="file://$PROJECT_DIR$/kafka-basics/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/resources/kafka-server.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/resources/kafka-server.properties" />
+    <entry file="file://$PROJECT_DIR$/.idea/modules/kafka-basics.main.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -757,37 +724,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules/kafka-basics.main.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-basics/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="60" />
+    <entry file="file://$PROJECT_DIR$/kafka-basics/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="285">
+            <caret line="19" selection-start-line="19" selection-end-line="19" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="570">
           <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-basics/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="96" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="96" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$USER_HOME$/.aws/credentials">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.aws/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
