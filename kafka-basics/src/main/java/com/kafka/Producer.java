@@ -53,7 +53,7 @@ public class Producer {
             producer.send(record, (metadata, exception) -> {
 
                 if (exception == null)
-                    logger.info(String.format("Received new message: on topic %s\nkey= %s {timestamp: %d, partition: %d, offset: %d}",
+                    logger.info(String.format("sent to topic %s w/ key= %s {ts: %d, partition: %d, offset: %d}",
                             metadata.topic(), record.key(), metadata.timestamp(), metadata.partition(), metadata.offset()));
                 else
                     logger.error("Received new message:", exception);
