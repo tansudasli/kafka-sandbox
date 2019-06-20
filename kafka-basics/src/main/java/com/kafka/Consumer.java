@@ -20,24 +20,13 @@ public class Consumer {
     private static String groupId = "product-analytics-consumer-app";
     private static String offsetReset = "earliest";
 
-    private static Map<String, String> products = Stream.of(new String[][] {
-            {"clothes:100", "id:100, category:clothes, price:1000"},
-            {"watches:200", "id:200, category:watches, price:500"},
-            {"clothes:300", "id:300, category:clothes, price:100"},
-            {"shoes:400", "id:400, category:shoes, price:250, brand:nike"},
-            {"shoes:500", "id:500, category:shoes, price:1000, brand: adidas"},
-            {"shoes:600", "id:600, category:shoes, price:1000, brand: adidas"},
-            {"clothes:700", "id:700, category:clothes, price:400, brand:gucci"},
-            {"watches:201", "id:201, category:watches, price:500"},
-    }).collect(Collectors.toMap(data -> data[0], data -> data[1]));
-
     private static Map<String, String> variables = Stream.of(new String[][] {
             {ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServer},
             {ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName()},
             {ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName()},
             {ConsumerConfig.GROUP_ID_CONFIG, groupId},
             {ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, offsetReset},
-            {"topic", "recently-added-products"}
+            {"topic", topic}
     }).collect(Collectors.toMap(data -> data[0], data -> data[1]));
 
     private static Properties properties = new Properties();
@@ -54,7 +43,7 @@ public class Consumer {
             ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(100));
 
             records.forEach((record) -> {
-                logger.info(String.format("Key=%s {%s}"), record.key(), record.value());
+                logger.info(String.format("Key= %s { %s }"), record.key(), record.value());
             });
         }
 
