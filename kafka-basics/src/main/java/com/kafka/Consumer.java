@@ -43,7 +43,7 @@ public class Consumer {
             ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(100));
 
             records.forEach((record) -> {
-                logger.info(String.format("Key= %s { %s }"), record.key(), record.value());
+                logger.info(String.format("Key= %s { %s }", record.key(), record.value()));
             });
         }
 
