@@ -9,17 +9,31 @@ version '0.1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
 //add this to use java -jar command!
-jar {
-    manifest {
-        attributes('Implementation-Title': 'Gradle fundamentals',
-                'Implementation-Version': version,
-                'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
-                'Main-Class': 'com.kafka.Producer')
+//jar {
+//    manifest {
+//        attributes('Implementation-Title': 'Gradle fundamentals',
+//                'Implementation-Version': version,
+//                'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+//                'Main-Class': 'com.kafka.Producer')
+//
+//    }
+//}
 
+task runApp(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+
+    if (project.hasProperty('mainClass')){
+
+        if ( mainClass== 'producer')
+            main = 'com.kafka.Producer'
+        else if (mainClass == 'consumer')
+            main = 'com.kafka.Consumer'
+    }
+    else {
+        println 'please pass the main class name  -PmainClass=consumer or  -PmainClass=producer'
     }
 }
 
-mainClassName = 'com.kafka.Producer'
 
 repositories {
     mavenCentral()
