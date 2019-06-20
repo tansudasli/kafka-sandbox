@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01605dff-96c8-4bce-9c45-97f46985189e" name="Default Changelist" comment="Consumer of pro">
+    <list default="true" id="01605dff-96c8-4bce-9c45-97f46985189e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-basics/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Consumer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/kafka-basics/.gradle/" />
     <ignored path="$PROJECT_DIR$/kafka-basics/build/" />
@@ -95,7 +96,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kafka-basics/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
@@ -116,12 +117,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kafka-basics/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="225">
-                <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <first_editor relative-caret-position="15">
+                <caret line="1" column="96" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="96" />
               </first_editor>
               <second_editor />
             </state>
@@ -131,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-56">
+            <state relative-caret-position="-50">
               <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="60" />
             </state>
           </provider>
@@ -140,11 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="555">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -168,10 +166,10 @@
         <option value="$PROJECT_DIR$/kafka-basics/src/main/java/Producer.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/kafka-basics/src/main/resources/kafka-server.properties" />
-        <option value="$PROJECT_DIR$/kafka-basics/README.md" />
         <option value="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Producer.java" />
-        <option value="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Consumer.java" />
         <option value="$PROJECT_DIR$/kafka-basics/build.gradle" />
+        <option value="$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Consumer.java" />
+        <option value="$PROJECT_DIR$/kafka-basics/README.md" />
       </list>
     </option>
   </component>
@@ -489,7 +487,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560848977040</updated>
-      <workItem from="1560848978502" duration="21852000" />
+      <workItem from="1560848978502" duration="22650000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize - kafka Java APIs">
       <created>1560849122338</created>
@@ -638,11 +636,32 @@
       <option name="project" value="LOCAL" />
       <updated>1560969136415</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="runApp task added for Consumer and Producer class: add  -PmainClass=producer or -PmainClass=consumer">
+      <created>1561014772918</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1561014772918</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Consumer app">
+      <created>1561015671937</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1561015671937</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Consumer app bugfix: string format exception fixed">
+      <created>1561015757987</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1561015757987</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21852000" />
+    <option name="totallyTimeSpent" value="22650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
@@ -654,7 +673,7 @@
       <window_info id="aws.explorer" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25755286" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25755286" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.32988167" />
@@ -664,7 +683,7 @@
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32988167" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32988167" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32988167" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32988167" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.32988167" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
@@ -674,7 +693,7 @@
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Flutter Inspector" order="1" />
       <window_info anchor="right" id="Flutter Outline" order="2" />
-      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.19561933" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.19561933" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="right" id="Database" order="5" weight="0.32930514" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -702,7 +721,10 @@
     <MESSAGE value="kafka Consumer of recently-added-products topic" />
     <MESSAGE value="Consumer of recently-added-products topic" />
     <MESSAGE value="minor changes for parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes for parameters" />
+    <MESSAGE value="runApp task added for Consumer and Producer class: add  -PmainClass=producer or -PmainClass=consumer" />
+    <MESSAGE value="Consumer app" />
+    <MESSAGE value="Consumer app bugfix: string format exception fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Consumer app bugfix: string format exception fixed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -738,37 +760,34 @@
     <entry file="file://$PROJECT_DIR$/.idea/modules/kafka-basics.main.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/kafka-basics/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="348">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
+        <state relative-caret-position="-50">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/com/kafka/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kafka-basics/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="225">
-            <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="96" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="96" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-basics/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
