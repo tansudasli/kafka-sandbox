@@ -2,3 +2,5 @@
 .gradle
 .idea
 .vscode
+kafka-basics/.classpath
+kafka-basics/.settings/org.eclipse.buildship.core.prefs
