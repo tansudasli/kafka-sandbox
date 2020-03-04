@@ -8,6 +8,8 @@ Apache Kafka sandbox
 
 ## How to Start
 
+check gcloud accounts status on local `gcloud auth list`, then activate right ACCOUNT_NAME if necessary `gcloud config set account ACCOUNT_NAME`.
+
 1. Run `./create-instance-on-GCP.sh` to create a GCP instance on your local. Change some variables!
 2. **ssh to instance** and `git clone https://github.com/tansudasli/kafka-sandbox.git`
 3. Install kafka w/ one of the **kafka-sandbox/install-kafka-as-standalone.sh** files
